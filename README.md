@@ -18,3 +18,18 @@ cd build.dir
 ../sqlite/configure --enable-shared
 sudo make install
 ```
+
+## Demos
+
+The `_demo` directory contains our demos (it start with `_` to prevent the `go` command from compiling it):
+
+* [sqlitedemo](_demo/sqlitedemo/demo.go): a basic sqlite demo
+
+### How to run demos
+
+To run the demos in directory `_demo`:
+
+```sh
+cd <demo-directory>  # eg. cd _demo/sqlitedemo
+llgo run .
+```
