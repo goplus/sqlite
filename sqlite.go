@@ -29,7 +29,7 @@ type (
 )
 
 const (
-	LLGoPackage = "link"
+	LLGoPackage = "link: sqlite3"
 )
 
 // llgo:type C
